@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: llmops-app
-        image: kalyankr1/studyai:latest
+        image: kalyankr1/studyai:v5
         ports:
         - containerPort: 8501
         env:
